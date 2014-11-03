@@ -1,0 +1,201 @@
+-
+  browser: >
+    Internet Explorer 11
+  summary: >
+    Hovered element still remains in <code>:hover</code> state after scrolling away
+  upstream_bug: >
+    IE#926665
+  origin: >
+    #14211
+
+-
+  browser: >
+    Internet Explorer 11
+  summary: >
+    When hovering over a <code>&lt;select&gt;</code> menu item, the cursor for the element underneath the menu is displayed
+  upstream_bug: >
+    IE#963961
+  origin: >
+    #14528
+
+-
+  browser: >
+    Firefox
+  summary: >
+    <code>.table-bordered</code> with an empty <code>&lt;tbody&gt;</code> is missing borders
+  upstream_bug: >
+    Mozilla#1023761
+  origin: >
+    #13453
+
+-
+  browser: >
+    Firefox
+  summary: >
+    <code>max-width: 100%;</code> doesn't work inside tables
+  upstream_bug: >
+    Mozilla#975632
+  origin: >
+    #10690
+
+-
+  browser: >
+    Firefox
+  summary: >
+    Java applets that are descendants of elements with forced hardware acceleration using <code>translate3d(0,0,0)</code> are invisible on Windows
+  upstream_bug: >
+    Mozilla#1048279
+  origin: >
+    #14124
+
+-
+  browser: >
+    Firefox
+  summary: >
+    Button elements with <code>width: 100%</code> become cropped in long tables.
+  upstream_bug: >
+    Mozilla#1060131
+  origin: >
+    #14320
+
+-
+  browser: >
+    Firefox
+  summary: >
+    If the disabled state of a form control is changed via JavaScript, the normal state doesn't return after refreshing the page.
+  upstream_bug: >
+    Mozilla#654072
+  origin: >
+    #793
+
+-
+  browser: >
+    Chrome
+  summary: >
+    Clicking above <code>&lt;input type="number"&gt;</code> increment button flashes the decrement button
+  upstream_bug: >
+    Chromium#419108
+  origin: >
+    Offshoot of #8350 &amp; Chromium#337668
+
+-
+  browser: >
+    Chrome
+  summary: >
+    <code>display: table;</code> within <code>display: block;</code> forces sibling content to new line
+  upstream_bug: >
+    Chromium#309483
+  origin: >
+    #9950
+
+-
+  browser: >
+    Chrome
+  summary: >
+    Incorrect viewport size used for media queries when printing
+  upstream_bug: >
+    Chromium#273306
+  origin: >
+    #12078
+
+-
+  browser: >
+    Chrome &amp; Safari
+  summary: >
+    OS X scrollbar clipped in <code>select[multiple]</code> with padding
+  upstream_bug: >
+    Chromium#342208, WebKit#128489
+  origin: >
+    #12536
+
+-
+  browser: >
+    Chrome
+  summary: >
+    <code>display: table-cell; width: 100%;</code> doesn't work correctly on date <code>&lt;input&gt;</code>
+  upstream_bug: >
+    Chromium#346051
+  origin: >
+    #12548
+
+-
+  browser: >
+    Chrome
+  summary: >
+    <code>&lt;input type="password"&gt;</code> sporadically causes bad widths on floated elements
+  upstream_bug: >
+    Chromium#377346
+  origin: >
+    #13892
+
+-
+  browser: >
+    Chrome
+  summary: >
+    CSS infinite linear animation with alpha transparency leaks memory
+  upstream_bug: >
+    Chromium#429375
+  origin: >
+    #14409
+
+-
+  browser: >
+    Safari
+  summary: >
+    Weird button behavior with some number <code>&lt;input&gt;</code>s
+  upstream_bug: >
+    WebKit#137269
+  origin: >
+    #8350,
+    Normalize#283,
+    Chromium#337668
+
+-
+  browser: >
+    Safari
+  summary: >
+    <code>display: table-cell;</code> within media query renders incorrectly when resizing the window
+  upstream_bug: >
+    WebKit#138167
+  origin: >
+    #9774
+
+-
+  browser: >
+    Safari
+  summary: >
+    <code>transform: translate3d(0, 0, 0);</code> iOS bug
+  upstream_bug: >
+    WebKit#138162, Safari#18804973
+  origin: >
+    #14603
+
+-
+  browser: >
+    Safari
+  summary: >
+    Small font size when printing webpage with fixed-width <code>.container</code>
+  upstream_bug: >
+    WebKit#138192
+  origin: >
+    #14868
+
+-
+  browser: >
+    Safari
+  summary: >
+    Text input's cursor doesn't move while scrolling the page on iOS
+  upstream_bug: >
+    WebKit#138201, Safari#18819624
+  origin: >
+    #14708
+
+-
+  browser: >
+    Chrome
+  summary: >
+    On Windows and Linux, body content can be scrolled even though <code>overflow: hidden;</code> is applied to it.
+  upstream_bug: >
+    Chromium#429604
+  origin: >
+    #14972
