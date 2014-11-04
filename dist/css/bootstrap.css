@@ -5549,6 +5549,7 @@ a.bootstrap .list-group-item-danger.active:focus {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: auto;
   background-color: #000;
 }
 .bootstrap.modal-backdrop.fade {
@@ -5764,8 +5765,20 @@ a.bootstrap .list-group-item-danger.active:focus {
   display: block;
   width: 0;
   height: 0;
+  margin-left: 0;
+  overflow: visible;
+  background: transparent;
   border-color: transparent;
   border-style: solid;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
+.bootstrap.popover > .arrow:after {
+  top: auto;
 }
 .bootstrap.popover > .arrow {
   border-width: 11px;
